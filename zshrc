@@ -58,6 +58,9 @@ setopt nomenucomplete
 # alias em='TERM=xterm-16color emacsclient -nw'
 alias em='emacsclient -t -nw'
 alias e='emacs'
+alias ag-update='sudo apt-get update'
+alias ag-upgrade='sudo apt-get upgrade'
+alias ag-search='sudo apt-cache search'
 ### caps_loac super_r swap
  # Add the 3 lines below to Convert caps-lock into Control
 #xmodmap -e 'remove Lock = Caps_Lock'

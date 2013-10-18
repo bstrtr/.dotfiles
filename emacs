@@ -117,9 +117,9 @@
 (ac-config-default)
 
 ;; ac-face
-(set-face-background 'ac-candidate-face "lightgray")
-(set-face-underline 'ac-candidate-face "darkgray")
-(set-face-background 'ac-selection-face "steelblue")
+;(set-face-background 'ac-candidate-face "lightgray")
+;(set-face-underline 'ac-candidate-face "darkgray")
+;(set-face-background 'ac-selection-face "steelblue")
 
 ;; Just ignore case
 (setq ac-ignore-case t)
@@ -140,8 +140,8 @@
 
 (defun ac-cc-mode-setup ()
   (setq ac-clang-complete-executable "~/.emacs.d/clang-complete")
-  (setq ac-sources '(ac-source-clang-async
-		     ac-source-yasnippet
+  (setq ac-sources '(ac-source-yasnippet
+		     ac-source-clang-async
 		     ac-source-abbrev
 		     ac-source-words-in-all-buffer
 		     ac-source-filename

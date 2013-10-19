@@ -1,0 +1,24 @@
+[submodule "emacs.d/el-get/fuzzy"]
+	path = emacs.d/el-get/fuzzy
+	url = http://github.com/auto-complete/fuzzy-el.git
+	ignore = dirt
+
+[submodule "emacs.d/el-get/auto-complete"]
+	path = emacs.d/el-get/auto-complete
+	url = http://github.com/auto-complete/auto-complete.git
+	ignore = dirty
+
+[submodule "emacs.d/el-get/auto-complete"]
+	path = emacs.d/el-get/popup
+	url = http://github.com/auto-complete/popup-el.git
+	ignore = dirty
+
+[submodule "emacs.d/el-get/el-get"]
+	path = emacs.d/el-get/el-get
+	url = http://github.com/dimitri/el-get.git
+	ignore = dirty
+
+[submodule "emacs.d/el-get/yasnippet"]
+	path = emacs.d/el-get/yanippet
+	url = http://github.com/capitaomorte/yasnippet.git
+	ignore = dirty
